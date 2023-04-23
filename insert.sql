@@ -112,3 +112,15 @@ VALUES
 (8, 1),
 (8 , 5),
 (8, 16);
+
+INSERT INTO alboms (name, year)
+VALUES ('My way', 2020);
+
+INSERT INTO songs ( name, duration , albom_id)
+VALUES
+('This is my way', 227, 9),
+('Oh my...', 314, 9);
+
+INSERT INTO artistsalboms(albom_id, artists_id) 
+VALUES
+(9,1);
